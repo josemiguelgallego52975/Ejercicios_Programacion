@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.examenrepaso.VistaControlador.ConsultarCitaControlador">
+   <children>
+      <Button fx:id="Aceptar" layoutX="166.0" layoutY="343.0" mnemonicParsing="false" onAction="#onAceptar" text="Aceptar" />
+      <Button fx:id="cancelar" layoutX="345.0" layoutY="343.0" mnemonicParsing="false" onAction="#onCancelar" text="Cancelar" />
+      <RadioButton fx:id="dni" layoutX="108.0" layoutY="97.0" mnemonicParsing="false" text="Por Paciente">
+         <toggleGroup>
+            <ToggleGroup fx:id="dniTratamiento" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="tratamiento" layoutX="376.0" layoutY="97.0" mnemonicParsing="false" text="Por Tratamiento" toggleGroup="$dniTratamiento" />
+      <Label layoutX="98.0" layoutY="171.0" text="Dni o Tratamiento" />
+      <TextField fx:id="mensaje" layoutX="302.0" layoutY="167.0" />
+      <TextArea fx:id="mostrarCita" layoutX="194.0" layoutY="219.0" prefHeight="112.0" prefWidth="200.0" />
+   </children>
+</Pane>

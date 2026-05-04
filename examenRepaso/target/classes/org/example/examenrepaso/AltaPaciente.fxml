@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.examenrepaso.VistaControlador.AltaPacienteControlador">
+   <children>
+      <Label layoutX="105.0" layoutY="69.0" text="Dni" />
+      <Label layoutX="100.0" layoutY="126.0" text="Nombre" />
+      <Label layoutX="91.0" layoutY="183.0" text="Direccion" />
+      <Label layoutX="92.0" layoutY="237.0" text="Telefono" />
+      <Label layoutX="100.0" layoutY="309.0" text="Fecha Nacimiento" />
+      <DatePicker fx:id="fechaNacimiento" layoutX="293.0" layoutY="305.0" />
+      <TextField fx:id="telefono" layoutX="278.0" layoutY="233.0" />
+      <TextField fx:id="direccion" layoutX="271.0" layoutY="179.0" />
+      <TextField fx:id="nombre" layoutX="262.0" layoutY="114.0" />
+      <TextField fx:id="dni" layoutX="286.0" layoutY="65.0" />
+      <Button fx:id="aceptar" layoutX="169.0" layoutY="350.0" mnemonicParsing="false" onAction="#onAceptar" text="Aceptar" />
+      <Button fx:id="cancelar" layoutX="354.0" layoutY="350.0" mnemonicParsing="false" onAction="#onCancelar" text="Cancelar" />
+   </children>
+</Pane>

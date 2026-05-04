@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.examenrepaso.VistaControlador.AsignarCitaControlador">
+   <children>
+      <Button fx:id="aceptar" layoutX="151.0" layoutY="337.0" mnemonicParsing="false" onAction="#onAceptar" text="Aceptar" />
+      <Button fx:id="cancelar" layoutX="378.0" layoutY="337.0" mnemonicParsing="false" onAction="#onCancelar" text="Cancelar" />
+      <Label layoutX="137.0" layoutY="116.0" text="Dni del Paciente" />
+      <Label layoutX="151.0" layoutY="172.0" text="Tratamiento" />
+      <Label layoutX="166.0" layoutY="222.0" text="Fecha" />
+      <Label layoutX="165.0" layoutY="269.0" text="Hora" />
+      <ChoiceBox fx:id="dniPaciente" layoutX="317.0" layoutY="104.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="tratamiento" layoutX="334.0" layoutY="168.0" prefWidth="150.0" />
+      <TextField fx:id="hora" layoutX="335.0" layoutY="274.0" />
+      <DatePicker fx:id="fecha" layoutX="323.0" layoutY="218.0" />
+   </children>
+</Pane>
